@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python tools
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Machine Learning generated files
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+
+# Generated plots / graphs
+graphs/
+static/graphs/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
