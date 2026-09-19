@@ -281,3 +281,6 @@ plt.show()
 joblib.dump(rf_model, "crop_model.pkl")
 
 print("\nRandom Forest model saved as crop_model.pkl")
+
+
+print(df["label"].unique())
